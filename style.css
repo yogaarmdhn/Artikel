@@ -1,0 +1,178 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: lightgray;
+}
+
+@font-face {
+    font-family: "Pervitina-Dex-FFP";
+    src: url(font/Pervitina-Dex-FFP.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Nexa Bold";
+    src: url(font/Nexa\ Bold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: "Retroica";
+    src: url(font/Retroica.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "MADE Tommy Soft Light";
+    src: url(font/MADE\ Tommy\ Soft\ Light.otf) format('opentype');
+}
+
+.header {
+    background-color: black;
+    margin: auto;
+    width: 1000px;
+}
+
+.top-bg {
+    margin: auto;
+    width: 943px;
+}
+
+.logo {
+    display: inline-block;
+    margin-left: 15px;
+    width: 200px;
+    font-family: "Pervitina-Dex-FFP";
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+}
+
+.social {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 40em;
+}
+
+.menu {
+    margin: auto;
+    padding: 5px;
+    width: 850px;
+    background-color: grey;
+    font-family: Nexa Bold;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    color: lightgray;
+}
+
+input {
+    margin-left: 100px;
+}
+
+.body {
+    margin: auto;
+    padding-top: 15px;
+    padding-left: 68px;
+    padding-right: 68px;
+    padding-bottom: 20px;
+    width: 864px;
+    background-color: white;
+}
+
+.mid {
+    align-content: center;
+}
+
+h2 {
+    font-family: Retroica;
+}
+
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #404040;
+}
+
+h6 a {
+    text-decoration: none;
+    color: grey;
+}
+
+h6 a:hover {
+    color: blue;
+}
+
+.main {
+    width: 550px;
+    box-sizing: border-box;
+    float: left;
+    padding-right: 20px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #404040;
+    font-size: 13px;
+}
+
+.main a {
+    color: gray;
+}
+
+.sidebar {
+    width: 250px;
+    float: right;
+    padding-left: 20px;
+}
+
+.sidebar h3 {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar img {
+    width: 70px;
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.sidebar p {
+    font: 12px/18px arial;
+    color: black;
+}
+
+.footer {
+    background-color: #404040;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    width: 970px;
+    font-family: MADE Tommy Soft Light;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
